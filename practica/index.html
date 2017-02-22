@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+    <script src="./js.js"></script>
+</head>
+<body>
+    <!--<section class="hide" id="mensaje">Hello World</section>
+    <section id="chuck-message"></section>
+    <button class="btn btn-success" id="boton">Boton</button>-->
+
+    <div class="container">
+        <div class="col-md-6">
+            <label id="lblRequiredText" class="label label-danger hide">Debe Ingresar Texto para poder realizar la busqueda</label>
+            <input type="text" id="txtRepoSearch" class="form-control">
+            <button id="btnSearch" class="btn btn-success form-control">Search Repo</button>
+        </div>
+        <div class="col-md-6">
+            <h4><label id="lblNoResultFound" class="label label-info hide">No se han encontrado resultados</label></h4>
+            <span class="label label-success hide" id="total-results"></span>
+            <ul class="list-group" id="listResults"></ul>
+        </div>
+    </div>
+</body>
+</html>

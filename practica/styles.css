@@ -1,0 +1,18 @@
+html {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+.unhide {
+    font-size: 30px;
+    -webkit-animation: fadein 2s; 
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
